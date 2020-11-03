@@ -1,0 +1,21 @@
+<html>
+  <head>
+
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-entity id="mouseCursor" cursor="rayOrigin: mouse"></a-entity>
+      <a-entity gltf-model="https://poly.googleapis.com/downloads/fp/1575545288491751/2u4e9d0aePt/fSG2yghO86V/model.gltf" scale="1 1 1" position="0 0 0" rotation="0 -38.73194695084365 0"></a-entity>
+          position="-10 0 0" sound="src: url(https://cdn.aframe.io/basic-guide/audio/backgroundnoise.wav); autoplay: true; loop: true;"></a-entity>
+    scale="2 2 2"
+     <a-entity environment="preset: canyon; dressingAmount: 500"></a-entity>
+      <a-sky src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg"></a-sky>
+    <a-light type="ambient" color="#445451"></a-light>
+    <a-light type="point" intensity="2" position="2 4 4"></a-light>
+    <a-entity
+    text="value: new car!; color: #BBB"
+    position="-0.9 0.2 -3"
+    scale="1.5 1.5 1.5"></a-entity>
+    </a-scene>
